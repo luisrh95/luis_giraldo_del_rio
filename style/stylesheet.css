@@ -353,4 +353,7 @@ label{
 	header nav ul li.logo{
 		display: none;
 	}
+	main > section.two{
+		height: auto;
+	}
 }
