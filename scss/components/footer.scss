@@ -1,0 +1,58 @@
+/*Footer*/
+footer{
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+	background-color: $color-hueso;
+}
+footer{
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+	background-color: $color-hueso;
+	
+	&.footer_blank{
+		background-color: transparent;
+	}
+	ul{
+		width: auto;
+		display: table;
+		margin: 0px auto;
+		li{
+			width: 50px;
+			height: 50px;
+			padding: 5px;
+			margin: 5px;
+			position: relative;
+			vertical-align: top;
+			display: inline-block;	
+			a{
+				width: 100%;
+				height: 100%;
+				display: block;
+				margin: 0px;		
+				img{
+					width: 100%;
+					height: 100%;
+					display: block;
+					position: relative;
+					bottom: 0;
+					transition: all 0.2s;
+					&:hover{
+						bottom: 4px;
+					}		
+				}	
+			 }		
+		}
+
+	}
+	
+	p{
+			width: 50%;
+			height: auto;
+			padding: 20px;
+			display: table;
+			margin: 0px auto;
+			text-align: center;
+	}
+}
